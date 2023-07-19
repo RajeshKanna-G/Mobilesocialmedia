@@ -1,0 +1,165 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:#f7ce6d;
+}
+li{
+  list-style:none;
+}
+ul{
+  display:flex;
+  margin:0;
+  padding:0;
+  gap:15px;
+  
+  }
+#logo{
+  width:45%;
+  margin-bottom:50%;
+}
+.logo{
+  flex:3;
+  align-self:flex-start;
+  margin-top:2%;
+  height:25px;
+}
+.homeic{
+  flex:1;
+  margin-top:3%;
+  height:25px;
+}
+.chat{
+  flex:1;
+  margin-top:3%;
+  height:25px;
+}
+.user{
+ flex:1;
+ margin-top:3%;
+ order:1;
+ height:25px;
+}
+.imagecontainer{
+  display:grid;
+  grid-template-rows:1fr;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+/*  border:2px solid aquamarine;*/
+  grid-column-gap:10px;
+}
+
+#img1{
+  
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin-top:8%;
+/*  margin-left:10px;*/
+  border:3px solid greenyellow; 
+}
+#imgn1{
+  position:relative;
+  left:20px;
+  bottom:15px;
+}
+#img2{
+  
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin-top:8%;
+  /*margin-left:10px;*/
+  border:3px solid greenyellow;
+}
+#imgn2{
+  position:relative;
+  left:20px;
+  bottom:15px;
+ }
+h2,h3{
+  font-family: 'Maven Pro', sans-serif;
+}
+p{
+  font-family: 'Lugrasimo', cursive;
+  }
+#img3{
+  
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin-top:8%;
+  /*margin-left:10px;*/
+  border:3px solid greenyellow;
+}
+#imgn3{
+  position:relative;
+  left:15px;
+  bottom:15px;
+ }
+ #img4{
+  
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  margin-top:8%;
+  /*margin-left:10px;*/
+  border:3px solid greenyellow;
+}
+#imgn4{
+  position:relative;
+  left:15px;
+  bottom:15px;
+ }
+
+#p1{
+  
+  width:410px;
+  height:410px;
+  border-radius:1%;
+}
+h4{
+  position:relative;
+  left:2px;
+  bottom:30px;
+  font-size:20px;
+ 
+}
+h5{
+  text-align:right;
+  font-size:25px;
+  position:relative;
+  right:10px;
+  bottom:100px;
+}
+#like{
+  flex:1;
+  position:relative;
+  left:25px;
+  bottom:4px;
+  font-size:20px;
+}
+#likef{
+  position:relative;
+  left:18px;
+  right:30px;
+  }
+ #share{
+  position:relative;
+  left:20px;
+ } 
+ #sharef{
+   position:relative;
+   left:15px;
+   right:25px;
+ }
+ #comment{
+   position:relative;
+   left:12px;
+ }
+ #commentf{
+   position:relative;
+   left:3px;
+   right:33px;
+ }
+ .post2{
+   margin-bottom:40px;
+ }
